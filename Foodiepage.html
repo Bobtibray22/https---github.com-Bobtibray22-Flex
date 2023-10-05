@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Delights - Discover the Culinary World</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 36px;
+        }
+
+        /* Navigation Styles */
+        .nav {
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+
+        .nav ul {
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Featured Dish Styles */
+        .featured-dish {
+            background-image: url('featured-dish.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .featured-dish h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .featured-dish p {
+            font-size: 18px;
+        }
+
+        /* Latest Recipes Styles */
+        .latest-recipes {
+            background-color: #fff;
+            padding: 2rem;
+        }
+
+        .latest-recipes h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .recipe-card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe-card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .recipe-card h3 {
+            font-size: 24px;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .recipe-card p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Foodie Delights</h1>
+        <p>Discover the Culinary World</p>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="featured-dish">
+        <div class="content">
+            <h2>Featured Dish</h2>
+            <p>Indulge in the exquisite flavors of our signature dish. A culinary masterpiece that will delight your taste buds.</p>
+            <a href="#recipes" class="btn">View Recipes</a>
+        </div>
+    </section>
+    <section id="recipes" class="latest-recipes">
+        <div class="content">
+            <h2>Latest Recipes</h2>
+            <div class="recipe-card">
+                <img src="recipe1.jpg" alt="Recipe 1">
+                <h3>Spaghetti Carbonara</h3>
+                <p>Enjoy the creamy goodness of homemade spaghetti carbonara.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="recipe2.jpg" alt="Recipe 2">
+                <h3>Chicken Alfredo</h3>
+                <p>Deliciously creamy chicken alfredo with fettuccine pasta.</p>
+            </div>
+            <!-- Add more recipe cards here -->
+        </div>
+    </section>
+    <section id="about" class="about-us">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>At Foodie Delights, we are passionate about food and bringing people together through culinary experiences. Learn more about our journey and commitment to quality.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? Feel free to reach out to us at <a href="mailto:info@foodiedelights.com">info@foodiedelights.com</a>.</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 Foodie Delights. All rights reserved.</p>
+    </footer>
+</body>
+</html>
